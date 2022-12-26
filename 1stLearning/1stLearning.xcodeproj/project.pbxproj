@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		109E474429586E4E00840EF7 /* FirstLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E474329586E4E00840EF7 /* FirstLearningApp.swift */; };
+		109E474629586E4E00840EF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E474529586E4E00840EF7 /* ContentView.swift */; };
+		109E474829586E5100840EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 109E474729586E5100840EF7 /* Assets.xcassets */; };
+		109E474B29586E5100840EF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 109E474A29586E5100840EF7 /* Preview Assets.xcassets */; };
+		109E475229586E9400840EF7 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E475129586E9400840EF7 /* IntroView.swift */; };
+		109E475429586EC400840EF7 /* ModuleInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E475329586EC400840EF7 /* ModuleInfoView.swift */; };
+		109E4757295870A100840EF7 /* ShapeFlashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E4756295870A100840EF7 /* ShapeFlashcards.swift */; };
+		109E47642958757500840EF7 /* Kalam-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 109E47612958757500840EF7 /* Kalam-Regular.ttf */; };
+		109E47652958757500840EF7 /* Kalam-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 109E47622958757500840EF7 /* Kalam-Bold.ttf */; };
+		109E47662958757500840EF7 /* Kalam-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 109E47632958757500840EF7 /* Kalam-Light.ttf */; };
+		109E47682958758700840EF7 /* Sacramento-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 109E47672958758700840EF7 /* Sacramento-Regular.ttf */; };
+		109E476D295875AF00840EF7 /* DancingScript-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 109E4769295875AF00840EF7 /* DancingScript-Medium.ttf */; };
+		109E476E295875AF00840EF7 /* DancingScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 109E476A295875AF00840EF7 /* DancingScript-Regular.ttf */; };
+		109E476F295875AF00840EF7 /* DancingScript-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 109E476B295875AF00840EF7 /* DancingScript-SemiBold.ttf */; };
+		109E4770295875AF00840EF7 /* DancingScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 109E476C295875AF00840EF7 /* DancingScript-Bold.ttf */; };
+		109E47722958873900840EF7 /* ColourFlashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E47712958873900840EF7 /* ColourFlashcards.swift */; };
+		109E47752958940B00840EF7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E47742958940B00840EF7 /* CardView.swift */; };
+		109E47792958983000840EF7 /* WeekFlashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E47782958983000840EF7 /* WeekFlashcards.swift */; };
+		109E477B29589ACC00840EF7 /* MonthFlashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E477A29589ACC00840EF7 /* MonthFlashcards.swift */; };
+		109E477D2958A0DE00840EF7 /* SeasonFlashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E477C2958A0DE00840EF7 /* SeasonFlashcard.swift */; };
+		109E477F2958A2A000840EF7 /* AlphabetFlashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E477E2958A2A000840EF7 /* AlphabetFlashcards.swift */; };
+		109E47812959BFE900840EF7 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E47802959BFE900840EF7 /* SplashScreen.swift */; };
+		109E47832959CD7500840EF7 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 109E47822959CD7500840EF7 /* Pacifico-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		109E474029586E4E00840EF7 /* 1stLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1stLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		109E474329586E4E00840EF7 /* FirstLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLearningApp.swift; sourceTree = "<group>"; };
+		109E474529586E4E00840EF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		109E474729586E5100840EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		109E474A29586E5100840EF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		109E475129586E9400840EF7 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		109E475329586EC400840EF7 /* ModuleInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleInfoView.swift; sourceTree = "<group>"; };
+		109E4756295870A100840EF7 /* ShapeFlashcards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeFlashcards.swift; sourceTree = "<group>"; };
+		109E475A2958721100840EF7 /* -stLearning-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-stLearning-Info.plist"; sourceTree = SOURCE_ROOT; };
+		109E47612958757500840EF7 /* Kalam-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kalam-Regular.ttf"; sourceTree = "<group>"; };
+		109E47622958757500840EF7 /* Kalam-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kalam-Bold.ttf"; sourceTree = "<group>"; };
+		109E47632958757500840EF7 /* Kalam-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kalam-Light.ttf"; sourceTree = "<group>"; };
+		109E47672958758700840EF7 /* Sacramento-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sacramento-Regular.ttf"; sourceTree = "<group>"; };
+		109E4769295875AF00840EF7 /* DancingScript-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Medium.ttf"; sourceTree = "<group>"; };
+		109E476A295875AF00840EF7 /* DancingScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Regular.ttf"; sourceTree = "<group>"; };
+		109E476B295875AF00840EF7 /* DancingScript-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-SemiBold.ttf"; sourceTree = "<group>"; };
+		109E476C295875AF00840EF7 /* DancingScript-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Bold.ttf"; sourceTree = "<group>"; };
+		109E47712958873900840EF7 /* ColourFlashcards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourFlashcards.swift; sourceTree = "<group>"; };
+		109E47742958940B00840EF7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		109E47782958983000840EF7 /* WeekFlashcards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekFlashcards.swift; sourceTree = "<group>"; };
+		109E477A29589ACC00840EF7 /* MonthFlashcards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthFlashcards.swift; sourceTree = "<group>"; };
+		109E477C2958A0DE00840EF7 /* SeasonFlashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonFlashcard.swift; sourceTree = "<group>"; };
+		109E477E2958A2A000840EF7 /* AlphabetFlashcards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetFlashcards.swift; sourceTree = "<group>"; };
+		109E47802959BFE900840EF7 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		109E47822959CD7500840EF7 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		109E473D29586E4E00840EF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		109E473729586E4E00840EF7 = {
+			isa = PBXGroup;
+			children = (
+				109E474229586E4E00840EF7 /* 1stLearning */,
+				109E474129586E4E00840EF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		109E474129586E4E00840EF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				109E474029586E4E00840EF7 /* 1stLearning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		109E474229586E4E00840EF7 /* 1stLearning */ = {
+			isa = PBXGroup;
+			children = (
+				109E475A2958721100840EF7 /* -stLearning-Info.plist */,
+				109E474329586E4E00840EF7 /* FirstLearningApp.swift */,
+				109E475529586EDA00840EF7 /* View */,
+				109E4773295893E800840EF7 /* Model */,
+				109E474729586E5100840EF7 /* Assets.xcassets */,
+				109E475B295874E600840EF7 /* Fonts */,
+				109E474929586E5100840EF7 /* Preview Content */,
+			);
+			path = 1stLearning;
+			sourceTree = "<group>";
+		};
+		109E474929586E5100840EF7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				109E474A29586E5100840EF7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		109E475529586EDA00840EF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				109E47802959BFE900840EF7 /* SplashScreen.swift */,
+				109E474529586E4E00840EF7 /* ContentView.swift */,
+				109E475129586E9400840EF7 /* IntroView.swift */,
+				109E475329586EC400840EF7 /* ModuleInfoView.swift */,
+				109E477E2958A2A000840EF7 /* AlphabetFlashcards.swift */,
+				109E4756295870A100840EF7 /* ShapeFlashcards.swift */,
+				109E47712958873900840EF7 /* ColourFlashcards.swift */,
+				109E477A29589ACC00840EF7 /* MonthFlashcards.swift */,
+				109E47782958983000840EF7 /* WeekFlashcards.swift */,
+				109E477C2958A0DE00840EF7 /* SeasonFlashcard.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		109E475B295874E600840EF7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				109E47822959CD7500840EF7 /* Pacifico-Regular.ttf */,
+				109E47622958757500840EF7 /* Kalam-Bold.ttf */,
+				109E47632958757500840EF7 /* Kalam-Light.ttf */,
+				109E47612958757500840EF7 /* Kalam-Regular.ttf */,
+				109E47672958758700840EF7 /* Sacramento-Regular.ttf */,
+				109E476C295875AF00840EF7 /* DancingScript-Bold.ttf */,
+				109E4769295875AF00840EF7 /* DancingScript-Medium.ttf */,
+				109E476A295875AF00840EF7 /* DancingScript-Regular.ttf */,
+				109E476B295875AF00840EF7 /* DancingScript-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		109E4773295893E800840EF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				109E47742958940B00840EF7 /* CardView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		109E473F29586E4E00840EF7 /* 1stLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109E474E29586E5100840EF7 /* Build configuration list for PBXNativeTarget "1stLearning" */;
+			buildPhases = (
+				109E473C29586E4E00840EF7 /* Sources */,
+				109E473D29586E4E00840EF7 /* Frameworks */,
+				109E473E29586E4E00840EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 1stLearning;
+			productName = 1stLearning;
+			productReference = 109E474029586E4E00840EF7 /* 1stLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		109E473829586E4E00840EF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					109E473F29586E4E00840EF7 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 109E473B29586E4E00840EF7 /* Build configuration list for PBXProject "1stLearning" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 109E473729586E4E00840EF7;
+			productRefGroup = 109E474129586E4E00840EF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				109E473F29586E4E00840EF7 /* 1stLearning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		109E473E29586E4E00840EF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109E47642958757500840EF7 /* Kalam-Regular.ttf in Resources */,
+				109E47662958757500840EF7 /* Kalam-Light.ttf in Resources */,
+				109E474B29586E5100840EF7 /* Preview Assets.xcassets in Resources */,
+				109E476D295875AF00840EF7 /* DancingScript-Medium.ttf in Resources */,
+				109E476F295875AF00840EF7 /* DancingScript-SemiBold.ttf in Resources */,
+				109E47652958757500840EF7 /* Kalam-Bold.ttf in Resources */,
+				109E476E295875AF00840EF7 /* DancingScript-Regular.ttf in Resources */,
+				109E47682958758700840EF7 /* Sacramento-Regular.ttf in Resources */,
+				109E474829586E5100840EF7 /* Assets.xcassets in Resources */,
+				109E4770295875AF00840EF7 /* DancingScript-Bold.ttf in Resources */,
+				109E47832959CD7500840EF7 /* Pacifico-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		109E473C29586E4E00840EF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109E47812959BFE900840EF7 /* SplashScreen.swift in Sources */,
+				109E47752958940B00840EF7 /* CardView.swift in Sources */,
+				109E4757295870A100840EF7 /* ShapeFlashcards.swift in Sources */,
+				109E475429586EC400840EF7 /* ModuleInfoView.swift in Sources */,
+				109E477B29589ACC00840EF7 /* MonthFlashcards.swift in Sources */,
+				109E47722958873900840EF7 /* ColourFlashcards.swift in Sources */,
+				109E474629586E4E00840EF7 /* ContentView.swift in Sources */,
+				109E474429586E4E00840EF7 /* FirstLearningApp.swift in Sources */,
+				109E47792958983000840EF7 /* WeekFlashcards.swift in Sources */,
+				109E475229586E9400840EF7 /* IntroView.swift in Sources */,
+				109E477D2958A0DE00840EF7 /* SeasonFlashcard.swift in Sources */,
+				109E477F2958A2A000840EF7 /* AlphabetFlashcards.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		109E474C29586E5100840EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		109E474D29586E5100840EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		109E474F29586E5100840EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"1stLearning/Preview Content\"";
+				DEVELOPMENT_TEAM = 46TBCL637H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-stLearning-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sri.-stLearning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		109E475029586E5100840EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"1stLearning/Preview Content\"";
+				DEVELOPMENT_TEAM = 46TBCL637H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-stLearning-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sri.-stLearning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		109E473B29586E4E00840EF7 /* Build configuration list for PBXProject "1stLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109E474C29586E5100840EF7 /* Debug */,
+				109E474D29586E5100840EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		109E474E29586E5100840EF7 /* Build configuration list for PBXNativeTarget "1stLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109E474F29586E5100840EF7 /* Debug */,
+				109E475029586E5100840EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 109E473829586E4E00840EF7 /* Project object */;
+}
