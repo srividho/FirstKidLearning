@@ -9,10 +9,21 @@ import SwiftUI
 
 struct AlphabetFlashcards: View {
     
+    @Environment(\.presentationMode) var mode: Binding<PresentationMode>
+    var img = Image(systemName: "chevron.backward.2")
+    
     var body: some View {
-        
-        NavigationView {
-            VStack{
+        ZStack{
+            HStack{
+                Button("\(img)") {
+                    self.mode.wrappedValue.dismiss()
+                }
+                .font(.custom("", size: 25))
+            }
+            .offset(x: -175)
+            .offset(y: -350)
+
+            VStack(){
                 Text("Alphabet")
                     .font(.custom("DancingScript-Regular", size: 50))
                     .offset(y: -50)
@@ -26,9 +37,6 @@ struct AlphabetFlashcards: View {
                 }.offset(y: -50)
             }
         }
-        .toolbar {
-            NavigationLink("Next", destination: ShapeFlashcards() )
-        }
     }
 }
 
@@ -37,3 +45,9 @@ struct AlphabetFlashcards_Previews: PreviewProvider {
         AlphabetFlashcards()
     }
 }
+
+//        .toolbar {
+//            NavigationLink("Next", destination: ShapeFlashcards() )
+//        }
+
+

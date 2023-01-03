@@ -49,7 +49,7 @@ struct IntroView: View {
                                 }
                     }
                     
-                    NavigationLink(destination: AlphabetFlashcards() ) {
+                    NavigationLink(destination: LearningTopicsScreen() ) {
                         Text("Let's Begin")
                             .font(Font.title3)
                             .padding(.horizontal, 25)

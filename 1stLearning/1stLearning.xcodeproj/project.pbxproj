@@ -30,6 +30,7 @@
 		109E477F2958A2A000840EF7 /* AlphabetFlashcards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E477E2958A2A000840EF7 /* AlphabetFlashcards.swift */; };
 		109E47812959BFE900840EF7 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E47802959BFE900840EF7 /* SplashScreen.swift */; };
 		109E47832959CD7500840EF7 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 109E47822959CD7500840EF7 /* Pacifico-Regular.ttf */; };
+		109E47852961C07500840EF7 /* LearningTopicsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109E47842961C07500840EF7 /* LearningTopicsScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		109E477E2958A2A000840EF7 /* AlphabetFlashcards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetFlashcards.swift; sourceTree = "<group>"; };
 		109E47802959BFE900840EF7 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		109E47822959CD7500840EF7 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		109E47842961C07500840EF7 /* LearningTopicsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningTopicsScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				109E474529586E4E00840EF7 /* ContentView.swift */,
 				109E475129586E9400840EF7 /* IntroView.swift */,
 				109E475329586EC400840EF7 /* ModuleInfoView.swift */,
+				109E47842961C07500840EF7 /* LearningTopicsScreen.swift */,
 				109E477E2958A2A000840EF7 /* AlphabetFlashcards.swift */,
 				109E4756295870A100840EF7 /* ShapeFlashcards.swift */,
 				109E47712958873900840EF7 /* ColourFlashcards.swift */,
@@ -239,6 +242,7 @@
 				109E474429586E4E00840EF7 /* FirstLearningApp.swift in Sources */,
 				109E47792958983000840EF7 /* WeekFlashcards.swift in Sources */,
 				109E475229586E9400840EF7 /* IntroView.swift in Sources */,
+				109E47852961C07500840EF7 /* LearningTopicsScreen.swift in Sources */,
 				109E477D2958A0DE00840EF7 /* SeasonFlashcard.swift in Sources */,
 				109E477F2958A2A000840EF7 /* AlphabetFlashcards.swift in Sources */,
 			);

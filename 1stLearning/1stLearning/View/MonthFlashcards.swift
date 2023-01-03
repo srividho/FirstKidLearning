@@ -9,9 +9,20 @@ import SwiftUI
 
 struct MonthFlashcards: View {
     
+    @Environment(\.presentationMode) var mode: Binding<PresentationMode>
+    var img = Image(systemName: "chevron.backward.2")
+    
     var body: some View {
-        
-        NavigationView {
+        ZStack{
+            HStack{
+                Button("\(img)") {
+                    self.mode.wrappedValue.dismiss()
+                }
+                .font(.custom("", size: 25))
+            }
+            .offset(x: -175)
+            .offset(y: -350)
+            
             VStack{
                 Text("Months")
                     .font(.custom("DancingScript-Regular", size: 50))
@@ -25,9 +36,6 @@ struct MonthFlashcards: View {
                     }
                 }.offset(y: -50)
             }
-        }
-        .toolbar {
-            NavigationLink("Next", destination: WeekFlashcards() )
         }
     }
 }

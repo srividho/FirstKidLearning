@@ -38,6 +38,7 @@ struct SplashScreen: View {
                     }
                 }
             }
+            /* Duration of the screen, here setted as 2 secs */
             .onAppear {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                     withAnimation {
